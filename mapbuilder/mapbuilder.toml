@@ -1,0 +1,70 @@
+[data]
+
+[data.rawdata]
+type = "raw"
+source = "data"
+
+[data.edlp]
+type = "aixm"
+source = "aixm/EDLP_AerodromeMapping_2024-05-16_2024-05-16_snapshot.xml"
+
+[data.edlp_layout]
+type = "kml"
+source = "kml/EDLP/layout.kml"
+
+[data.edlw]
+type = "aixm"
+source = "aixm/EDLW_AerodromeMapping_2024-05-16_2024-05-16_snapshot.xml"
+
+[data.edlw_layout]
+type = "kml"
+source = "kml/EDLW/layout.kml"
+
+[profiles]
+
+[profiles.Default]
+maps = [
+    { map = "GRP Phoenix Maps", target = "EDGG/Plugins/GRP/Phoenix/GRpluginMaps.txt" },
+    { map = "GRP Stands", target = "EDGG/Plugins/GRP/Phoenix/GRpluginStands.txt" },
+    { map = "TopSky EDUU Maps", target = "EDGG/Plugins/Topsky_EDUU/TopSkyMaps.txt" },
+    { map = "TopSky EDGG Maps", target = "EDGG/Plugins/Topsky_EDGG/TopSkyMaps.txt" },
+    { map = "TopSky EDYY Maps", target = "EDGG/Plugins/Topsky_EDYY/TopSkyMaps.txt" },
+    { map = "TopSky Phoenix Maps", target = "EDGG/Plugins/Topsky_Phoenix/TopSkyMaps.txt" }
+]
+dir = "EDGG/Plugins/"
+aliases = [ "Default" ]
+
+#[profiles.TWR_DAY]
+#maps = [
+#    { map = "settings-grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginSettings.txt" },
+#    { map = "settings-topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkySettings.txt" },
+#    { map = "grplugin-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/GRpluginMaps.txt" },
+#    { map = "topsky-phoenix", target = "Plugins/EDWW FIR beta/TWR_DAY/TopSkyMaps.txt" },
+#]
+#dir = "Plugins/EDWW FIR beta/TWR_DAY/"
+#aliases = [ "bright" ]
+
+[runways]
+
+#-----------EDLP--------------
+
+[runways.EDLP.24]
+thr = [ 51.619440, 8.629478 ]
+bearing = 237
+
+[runways.EDLP.06]
+thr = [ 51.608713, 8.603167 ] 
+bearing = 57
+
+#-----------EDLW--------------
+
+[runways.EDLW.24]
+thr = [ 51.522206, 7.623252 ]
+bearing = 240
+loc = [ 51.513317, 7.598003 ]
+
+[runways.EDLW.06]
+thr = [ 51.516019, 7.605664 ] 
+bearing = 60
+loc = [ 51.524903, 7.630898 ]
+

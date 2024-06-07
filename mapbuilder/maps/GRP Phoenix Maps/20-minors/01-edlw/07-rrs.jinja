@@ -1,0 +1,14 @@
+// ******************************* RRS ******************************
+MAP:RRS 06
+AIRPORT:EDLW
+FOLDER:Runway Info
+ACTIVE:RWY:ARR:EDLW06:DEP:*
+ZOOM:300
+{{ data.edlw_layout['layout']['RRS']['06'][''] | to_poly('RRS 06','rrs-marker') }}
+
+MAP:RRS 24
+AIRPORT:EDLW
+FOLDER:Runway Info
+ACTIVE:RWY:ARR:EDLW24:DEP:*
+ZOOM:300
+{{ data.edlw_layout['layout']['RRS']['24'][''] | to_poly('RRS 24','rrs-marker') }}
