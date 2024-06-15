@@ -4193,17 +4193,9 @@
 		<Folder>
 			<name>Labels</name>
 			<open>1</open>
-			<Placemark>
-				<name>Text Buffer</name>
+			<Placemark id="labels_buffer.1">
+				<name>Labels Buffer</name>
 				<snippet></snippet>
-				<Style>
-					<LineStyle>
-						<color>ff0000ff</color>
-					</LineStyle>
-					<PolyStyle>
-						<fill>0</fill>
-					</PolyStyle>
-				</Style>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -4779,10 +4771,23 @@
 		</Folder>
 		<Folder>
 			<name>TORA</name>
+			<open>1</open>
 			<Placemark id="tora.1">
 				<name>06 B</name>
 				<Point>
 					<coordinates>7.60659406148804,51.51587244186571,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>06 A</name>
+				<Point>
+					<coordinates>7.60299829521033,51.51459817815861,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>24 D</name>
+				<Point>
+					<coordinates>7.62649837403219,51.5229043531953,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark id="tora.2">

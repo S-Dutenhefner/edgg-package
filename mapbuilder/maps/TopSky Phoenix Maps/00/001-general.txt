@@ -24,6 +24,10 @@ COLORDEF:taxiways:255:105:180
 COLORDEF:taxiway_background:83:83:83
 COLORDEF:apron_background:38:36:45
 
+COLORDEF:layout-taxiway:53:53:53
+COLORDEF:layout-label-taxiway:180:180:180
+COLORDEF:layout-label-stand:180:180:180
+
 // VFR Pflichtmeldepunkte
 SYMBOLDEF:VFR
 POLYGON:-4:3:0:-4:4:3
