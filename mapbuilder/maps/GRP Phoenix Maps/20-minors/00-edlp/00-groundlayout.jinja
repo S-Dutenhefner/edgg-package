@@ -70,3 +70,5 @@ ACTIVE:1
 {% for building, geom in data.edlp['VerticalStructureByName'].items() %}
 {{ geom | simplify(default) | to_poly(building, 'layout-building') }}
 {% endfor %}
+COLOR:layout-building
+{{ data.edlp_layout['layout']['Fence']['Fence'][''] | to_line('Fence') }}
