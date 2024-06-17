@@ -20,6 +20,14 @@ source = "aixm/EDLW_AerodromeMapping_2024-05-16_2024-05-16_snapshot.xml"
 type = "kml"
 source = "kml/EDLW/layout.kml"
 
+[data.edln]
+type = "aixm"
+source = "aixm/EDLN_AerodromeMapping_2024-06-13_2024-06-13_snapshot.xml"
+
+[data.edln_layout]
+type = "kml"
+source = "kml/EDLN/layout.kml"
+
 [profiles]
 
 [profiles.Default]
@@ -68,3 +76,34 @@ thr = [ 51.516019, 7.605664 ]
 bearing = 60
 loc = [ 51.524903, 7.630898 ]
 
+#-----------EDLN--------------
+
+[runways.EDLN.31]
+thr = [ 51.226991, 6.511213 ]
+bearing = 308
+
+[runways.EDLN.13]
+thr = [ 51.233725, 6.497791 ] 
+bearing = 128
+
+#-----------EDDL--------------
+
+[runways.EDDL.23L]
+thr = [ 51.294278, 6.782787 ]
+bearing = 233
+loc = [ 51.277864, 6.748345 ]
+
+[runways.EDDL.05R]
+thr = [ 51.281248, 6.755424 ] 
+bearing = 53
+loc = [ 51.297669, 6.789874 ]
+
+[runways.EDDL.23R]
+thr = [ 51.296757, 6.776128 ]
+bearing = 233
+loc = [ 51.281945, 6.745040 ]
+
+[runways.EDDL.05L]
+thr = [ 51.285295, 6.752085 ] 
+bearing = 53
+loc = [ 51.300616, 6.784241 ]

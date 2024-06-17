@@ -1,15 +1,5 @@
 // -------------------------- Runway Info ---------------------------
 
-// TORA
-MAP:TORA 06
-AIRPORT:EDLP
-FOLDER:Runway Info
-COLOR:tora-label
-ZOOM:500
-TEXTALIGN:LC
-{{ data.edlp_layout['layout']['TORA']['06 C'] | to_text('1610') }}
-{{ data.edlp_layout['layout']['TORA']['06 D'] | to_text('2180') }}
-
 MAP:TORA 24
 AIRPORT:EDLP
 FOLDER:Runway Info
@@ -19,7 +9,15 @@ TEXTALIGN:RC
 {{ data.edlp_layout['layout']['TORA']['24 B'] | to_text('1240') }}
 {{ data.edlp_layout['layout']['TORA']['24 A'] | to_text('2180') }}
 
-// Runway Markings
+MAP:TORA 06
+AIRPORT:EDLP
+FOLDER:Runway Info
+COLOR:tora-label
+ZOOM:500
+TEXTALIGN:LC
+{{ data.edlp_layout['layout']['TORA']['06 C'] | to_text('1610') }}
+{{ data.edlp_layout['layout']['TORA']['06 D'] | to_text('2180') }}
+
 MAP:Runway Markings
 AIRPORT:EDLP
 FOLDER:Runway Info

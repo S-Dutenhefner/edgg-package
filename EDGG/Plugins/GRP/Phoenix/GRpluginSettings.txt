@@ -201,8 +201,6 @@ Airport_Runway_Buffer_LVP=21:200
 
 //List_Outbound=*,2,1131,500
 //List_Inbound=*,2,1203,650
-<<<<<<< Updated upstream
-=======
 
 [EDLP]
 Window_APP_Rotation=32.5
@@ -213,4 +211,6 @@ Airport_Runway_Area_LVP=24:90
 Airport_Runway_Area_LVP=06:90
 Airport_Runway_Buffer_LVP=24:150
 Airport_Runway_Buffer_LVP=06:150
->>>>>>> Stashed changes
+
+[EDLN]
+Window_APP_Rotation=322

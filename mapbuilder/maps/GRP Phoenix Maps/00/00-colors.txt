@@ -47,3 +47,5 @@ COLORDEF:lvp-areas:60:12:15
 
 COLORDEF:restrictions-AB:185:59:46
 COLORDEF:restrictions-C:210:116:7
+
+COLORDEF:appwindow-runway:160:160:160
